@@ -30,7 +30,7 @@ Resources
 - Improved computational thinking skills
 - Learn Java syntax
 
-Accept this assignment on Githuib classroom. Attempt the exercises and make 5 commits.
+Accept [this assignment on Githuib classroom](https://classroom.github.com/a/0IcJ0ExH). Clone the repo. Attempt the exercises and make 5 commits. Feel free to play with hue and saturation in addition to hue. Share pictures on Discord! They are really great and so impressive.
 
 Check out this video of the assignment I wrote in GWBasic for the statistics module in first year WMT in Kevin St in 1990 (click the image for video):
 
@@ -53,13 +53,13 @@ Ensure your code works, if you change the drawing window size, or the array valu
 
 	![Sketch](images/p38.png)
 
-  This one is a bit trickier because you have to calculate the start xy and end xy for each line. Your for loop for drawing the trend lines can start at 1 instead of 0 and then you can get the previous value for the start of each line by taking rainfall[i - 1].
+  This one is a bit trickier, because you have to calculate the start xy, and end xy for each line. Your for loop for drawing the trend lines can start at 1 instead of 0, and then you can get the previous value for the start of each line by taking rainfall[i - 1].
 
 - A pie chart (Hard)
 
 	![Sketch](images/p39.png)
 
-	You can use the the [arc function](https://processing.org/reference/arc_.html) to draw arcs and sin & cos to calculate the x and y coordinates to print the text. This one is the most challenging. Remember that a pie chart shows the proportion of each data point in the sum of all the data, so you will have to calculate the sum of all the rain fall and figure out how much each month is relative to the sum. It's best to draw the segments first and then draw the labels. Your map function might look something like this:
+	You can use the the [arc function](https://processing.org/reference/arc_.html) to draw arcs, and sin & cos to calculate the x and y coordinates to print the text. This one is the most challenging. Remember that a pie chart shows the proportion of each data point in the sum of all the data, so you will have to calculate the sum of all the rain fall and figure out how much each month is relative to the sum. It's best to draw the segments first and then draw the labels. Your map function might look something like this:
 
 	```Java
 	float angle = map(rainfall[i], 0, sum, 0, TWO_PI);
